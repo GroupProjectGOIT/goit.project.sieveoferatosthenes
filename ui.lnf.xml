@@ -1,0 +1,8 @@
+<application>
+  <component name="UISettings">
+    <option name="EDITOR_TAB_LIMIT" value="25" />
+    <option name="SHOW_EDITOR_TOOLTIP" value="false" />
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
+    <option name="MAX_CLIPBOARD_CONTENTS" value="25" />
+  </component>
+</application>
