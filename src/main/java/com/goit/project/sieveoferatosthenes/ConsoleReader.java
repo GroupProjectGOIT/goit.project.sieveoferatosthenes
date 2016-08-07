@@ -1,4 +1,4 @@
-package com.goit.project1;
+package com.goit.project.sieveoferatosthenes;
 
 import java.io.BufferedReader;
 import java.io.IOException;

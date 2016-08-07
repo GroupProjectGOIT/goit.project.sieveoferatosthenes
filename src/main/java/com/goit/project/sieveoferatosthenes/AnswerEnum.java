@@ -1,4 +1,4 @@
-package com.goit.project1;
+package com.goit.project.sieveoferatosthenes;
 
 public enum AnswerEnum {
     YES,
