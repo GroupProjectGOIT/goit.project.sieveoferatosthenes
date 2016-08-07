@@ -36,11 +36,11 @@ class PrimeNumbers {
         for (String line: getSimpleNumbers()) System.out.println(line);
     }
 
-    static int positiveIntGreaterThenOne(String s) throws NumberFormatException, AtLeastTwoExeption {
+    static int positiveIntGreaterThenOne(String s) throws NumberFormatException, NotPrimeNumberException {
         try {
             int number = Integer.parseInt(s);
             if (number <= 1) {
-                throw new AtLeastTwoExeption("You entered a number less then two, Try again!!!");
+                throw new NotPrimeNumberException("You entered a number less then two, Try again!!!");
             }
             return number;
         } catch (NumberFormatException e) {
